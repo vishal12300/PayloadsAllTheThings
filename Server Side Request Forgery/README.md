@@ -753,6 +753,7 @@ Limited, maybe more exists? `https://azure.microsoft.com/en-us/blog/what-just-ha
 
 ```powershell
 http://169.254.169.254/metadata/v1/maintenance
+http://169.254.169.254/metadata/v1/Instanceinfo
 ```
 
 Update Apr 2017, Azure has more support; requires the header "Metadata: true" `https://docs.microsoft.com/en-us/azure/virtual-machines/windows/instance-metadata-service`
